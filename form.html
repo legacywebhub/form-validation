@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <form name="form"  id="form">
+        <div class="user-icon">
+            <i class="fas fa-user-circle fa-5x"></i>
+        </div>
+        <h2>Register</h2>
+        <div id="error-msg"></div>
+        <div class="form-control">
+            <label for="username">Enter Username:</label>
+            <input type="text" name="username" required>
+            <i class="fa fa-exclamation-circle"></i>
+        </div>
+        <div class="form-control">
+            <label for="number">Enter Phone Number:</label>
+            <input type="number" name="number" required>
+            <i class="fa fa-exclamation-circle"></i>
+        </div>
+        <div class="radio">
+            <label for="radio">Male</label>
+            <input type="radio" name="radio">
+            <label for="radio">female</label>
+            <input type="radio" name="radio">
+        </div>
+        <div class="form-control">
+            <label for="password1">Enter Password:</label>
+            <input type="password" name="password1" required>
+            <i class="fa fa-exclamation-circle"></i>
+        </div>
+        <div class="form-control">
+            <label for="password2">Verify Password:</label>
+            <input type="password" name="password2" required>
+            <i class="fa fa-exclamation-circle"></i>
+        </div>
+        <button name="submit" type="submit">Submit</button>
+    </form>
+    
+    <script src="js/all.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

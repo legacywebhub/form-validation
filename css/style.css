@@ -1,0 +1,116 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+body {
+    background:linear-gradient(135deg,
+    rgba(49, 24, 131, 0.7) 0%,
+    rgba(72, 56, 149, 0.9)) 100%,
+    url('../images/elephants-wildlife.jpg');
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    position: relative;
+    color: #fafafa;
+    font-size: 1.6rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.logo {
+    width: 10rem;
+    height: 50rem;
+    position: absolute;
+    left: 10rem;
+    top: 8rem;
+}
+
+.logo img {
+    width: 100%;
+}
+
+form {
+    border: 0.3rem solid #777;
+    border-radius: 1rem;
+    width: 50%;
+}
+
+.user-icon {
+    text-align: center;
+    margin-bottom: 1remrem;
+}
+
+h2 {
+    text-align: center;
+}
+
+form div {
+    display: block;
+    margin: 1rem 1rem;
+}
+
+.form-control {
+    position: relative;
+}
+
+
+.fa-exclamation-circle {
+    color: rgba(255, 0, 0, 0.801);
+    position: absolute;
+    right: 1rem;
+    top: 3.5rem;
+    visibility: hidden;
+}
+
+.radio {
+    margin: 2.5rem 1rem;
+}
+
+.radio label {
+    display: inline-block;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+input[type="text"], input[type="number"], input[type="password"] {
+    display: block;
+    width: 100%;
+    padding: 1rem 1rem;
+    background: transparent;
+    color: #fafafa;
+    border-radius: 1rem;
+}
+
+button {
+    display: block;
+    width: 100%;
+    margin-top: 2.5rem;
+    padding: 1rem 0;
+    background-color: #029ddc;
+    color: #fff;
+    border: none;
+    font-weight: bold;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+#error-msg {
+    color: rgba(255, 0, 0, 0.7);
+    border-radius: .5rem;
+    /* padding: .5rem 1rem; */
+}
